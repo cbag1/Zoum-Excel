@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LireFileExcelController!{% endblock %}
+
+{% block body %}
+{% for palmares in list %}
+<tr>
+ <td>{{palmares}}</td>
+ <br/>
+
+</tr>
+{% endfor %}
+{% endblock %}
